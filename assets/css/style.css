@@ -1,0 +1,57 @@
+ul{
+    background-color: black;
+    text-decoration-color: white;
+    display: flex;
+    padding: 40pt;
+} 
+
+a{
+    color: white;
+    padding: 10pt;
+}
+
+#jardin{
+    display: flex;
+    margin-left: 400pt;
+    font-family: 'Gill Sans';
+}
+header {
+    display:flex;
+}
+
+.box{
+        background-color: rgb(194, 194, 194);
+        display: flex;
+        width: 30%;
+
+}
+section{
+    display: flex;
+}
+#text{
+    display: flex;    
+}
+.promo{
+    width: 100%;
+}
+
+#contact{
+
+    display: flex;justify-content: space-between;
+}
+
+#tableau{
+    display: flex;justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
