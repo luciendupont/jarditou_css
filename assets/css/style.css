@@ -22,19 +22,8 @@ header {
 .box{
         background-color: rgb(194, 194, 194);
         display: flex;
-        width: 30%;
-
-}
-section{
-    display: flex;
-}
-#text{
-    display: flex;    
-}
-.promo{
-    width: 100%;
-}
-
+        width: 50%;
+      }  
 #contact{
 
     display: flex;justify-content: space-between;
@@ -44,24 +33,9 @@ section{
     display: flex;justify-content: space-between;
 }
 
-@media screen and (max-width: 768px) 
-{ 
-    h1 
-    { 
-        font-size: 10%;
-    } 
-    img 
-{
-     max-width: 100%;
-     height: auto;
-}
-     nav{
-        display: flex ;
-        flex-direction: column-reverse;
-     }   
-}     
-
-
+ section{
+    display: flex;justify-content: space-between;
+ }
 
 
 
