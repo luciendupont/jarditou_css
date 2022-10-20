@@ -1,0 +1,78 @@
+body
+{
+   background-color: aquamarine;
+}
+ul{
+    background-color: black;
+    text-decoration-color: white;
+    display: flex;font-family: Calibri;  font-style: oblique;font-weight: 400;
+    padding: 40pt;
+} 
+
+a{
+    color: white;
+    padding: 10pt;
+}
+
+#jardin{
+    width: 900px;
+    margin: 0 auto;
+    font-family: "dyuthi";
+    font-style: italic;
+    font-weight: 100;
+    font-variant-ligatures: normal;
+    font-size: 2rem;
+    letter-spacing: 1px; 
+}
+
+header {
+    display:flex;
+}
+
+.box{
+        background-color: rgb(194, 194, 194);
+        display: flex;  font-family: monospace;font-display: 400;
+        width: 50%;
+      }  
+#contact{
+
+    display: flex;justify-content: space-between;
+}
+
+#tableau{
+    display: flex;justify-content: space-between;
+}
+
+ section{
+    display: flex;justify-content: space-between;
+ }
+
+ p{
+    font-stretch: semi-expanded;font-family: "dyuthi";font-weight: 800;
+ }
+ footer{
+    font-family: Verdana ;font-style: oblique;
+ }
+ .index
+ {
+    font-family: Verdana ;font-style: oblique;
+
+ }
+ .logo{
+    width: 50%;
+ }
+ @media screen and (max-width: 768px) 
+ {
+     h1 
+     { 
+         font-size : 40px; 
+     } 
+     ul {display: flex;
+        flex-direction: column;
+
+         }  
+    .box{
+        display: none
+        
+    }         }
+
