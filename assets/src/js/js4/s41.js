@@ -1,0 +1,1 @@
+Math.floor(10)<n;

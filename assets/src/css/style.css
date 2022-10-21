@@ -1,11 +1,14 @@
 body
 {
    background-color: aquamarine;
+   font-family:'Trebuchet MS';
 }
+
+
 ul{
     background-color: black;
     text-decoration-color: white;
-    display: flex;font-family: Calibri;  font-style: oblique;font-weight: 400;
+    display: flex;font-family:Verdana  ;font-style: oblique;font-weight: 400;
     padding: 40pt;
 } 
 
@@ -63,6 +66,9 @@ header {
  }
  @media screen and (max-width: 768px) 
  {
+    header{
+        font-size: xx-small;font-family:'Trebuchet MS';
+    }
      h1 
      { 
          font-size : 40px; 
@@ -74,5 +80,10 @@ header {
     .box{
         display: none
         
-    }         }
+    }    
+    
+    
+
+
+}
 
