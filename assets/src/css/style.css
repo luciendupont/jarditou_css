@@ -17,6 +17,11 @@ a{
     padding: 10pt;
 }
 
+html{
+    font-size: xx-large;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 #jardin{
     width: 1100px;
     margin: 0 auto;
