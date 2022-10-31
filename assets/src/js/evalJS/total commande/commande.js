@@ -1,13 +1,11 @@
-var prixuinaitaire=window.prompt("prix unitaire");
-
-var qtecom=window.prompt("quantité commandée");
-var tot;
+var pu=parseInt(prompt("veuillez saisir le prix unitaire"));
+var qtecom=parseInt(prompt("veuillez saisir une quantité"));
+var tot = pu*qtecom;
 var rem;
-var par;
-var pap;
-var port;//frais de  port
+var pap; //pu*qtecom  - rem
+var port;
+alert(tot);
 
-tot=pu*qtecom;
 
 if(tot>100 && tot<200){
 
@@ -76,5 +74,3 @@ document.write("prix a payer : "+pap+"<br>");
 document.write("remise : "+rem+"<br>");
 
 document.write("frais de port : "+port);
-
-document.write('<br><br><a href="index.html">Accueil</a>');
