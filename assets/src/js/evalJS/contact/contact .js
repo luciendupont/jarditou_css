@@ -1,5 +1,5 @@
 var check = document.getElementById('envoie');
-check.addEventListener("click", function verif(event)
+document.getElementById("formulaire").addEventListener("submit", function verif(event)
 {
 
     var nom = document.getElementById("nom").value;
