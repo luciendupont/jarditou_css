@@ -1,5 +1,5 @@
-var checkbox = document.getElementById("1");
-SubmitEvent.getElementById("envoyer",f_valid);
+var  checkbox= document.getElementById("fourmulaire");
+Submit.getElementById("envoyer",f_valid);
 
 document.getElementById("nom").value="";
 document.getElementById("prenom").value="";
@@ -15,7 +15,7 @@ document.getElementById("coche").value="";
 function f_valid(e) {
 function name(){
 var name = document.getElementById("nom");
-var name_m=document.getElementById("alert_name");
+var name_m=document.getElementById("erreurnom");
 var name_v= new RegExp("^[A-Za-z]+$");
 if (name.value === ""){
 e.preventDefault();
@@ -30,7 +30,7 @@ name_m.style.color="orange";
 name();
 function pre(){
 var pre=document.getElementById("prenom");
-var pre_m=document.getElementById("alert_pre");
+var pre_m=document.getElementById("erreurprenom");
 var pre_v=new RegExp("^[A-Za-z]+$");
 if (pre.value ===""){
 e.preventDefault();
@@ -45,7 +45,7 @@ pre_m.style.color="orange";
 pre();
 
 function sx(){
-var sx_alert = document.getElementById("sx_alert");
+var sx_alert = document.getElementById("erreursexe");
 var sx_1=document.getElementById("sexe1");
 console.log(sx_1);
 var sx_2=document.getElementById("sexe2");
@@ -58,7 +58,7 @@ sx_alert.style.color = "red";
 sx();
 function nai(){
 var nai=document.getElementById("date");
-var nai_m=document.getElementById("alert_dateNaissance");
+var nai_m=document.getElementById("erreurdate");
 if (nai.value ===""){
 e.preventDefault();
 nai_m.textContent = "manquant";
@@ -70,7 +70,7 @@ nai();
 
 function cdpo(){
 var cdpo=document.getElementById("code_postal");
-var cdpo_m=document.getElementById("alert_cdp");
+var cdpo_m=document.getElementById("alertcode");
 var cdpo_v=new RegExp("^([0-9a-z]){5}$");
 if (cdpo.value ===""){
 e.preventDefault();
@@ -86,7 +86,7 @@ cdpo();
 
 function em(){
 var em=document.getElementById("email");
-var em_m=document.getElementById("alert_ml");
+var em_m=document.getElementById("erreurmail");
 var em_v=new RegExp("^[a-z0-9]+@");
 if (em.value===""){
 e.preventDefault();

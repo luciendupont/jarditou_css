@@ -23,14 +23,14 @@
         <div class="contact">
         <fieldset id="index">
         <legend>vos coordonnés</legend>
-        <form action="" id="formulaire"><label for="nom">Votre nom*</label><input type="text" name="nom" id="nom"><br>          
-        <label for="prenom"> Votre prénom*</label><input type="text" name="prenom" id="prenom"><br>
-        <label for="genre"></label> sexe*:<input type="radio" id="homme" value="homme" name="sexe" ><label for="homme">Homme</label><input type="radio" name="femme" id="femme" name="sexe2"><label for="femme">femme</label><br>
-        <label for="datedenaissance">date de naissance*</label><input type="date" name="date" id="datedenaissance"><br>
-        <label for="codepostal">code postal*</label><input type="text" name="codepostal" id="codepostal"><br>
-        <label for="adresse">adresse*</label><input type="text" name="adresse" id="adresse"><br>
-        <label for="ville">ville*</label><input type="text" name="ville" id="ville"><br>
-        <label for="email">email*</label><input type="email" name="email" id="email"><br></form>
+        <form action="" id="formulaire"><label for="nom">Votre nom*</label><input type="text" name="nom" id="nom"><br><span id="erreurnom"></span></span>         
+        <label for="prenom"> Votre prénom*</label><input type="text" name="prenom" id="prenom"><br><span id="erreurprenom"></span>
+        <label for="genre"></label> sexe*:<input type="radio" id="homme" value="homme" name="sexe" ><label for="homme">Homme</label><input type="radio" name="femme" id="femme" name="sexe2"><label for="femme">femme</label><br><span id="erreur"></span>
+        <label for="datedenaissance">date de naissance*</label><input type="date" name="date" id="datedenaissance"><br><span id="erreurdate"></span>
+        <label for="codepostal">code postal*</label><input type="text" name="codepostal" id="codepostal"><br><span id="erreurcode"></span>
+        <label for="adresse">adresse*</label><input type="text" name="adresse" id="adresse"><br><span id="erreuradresse"></span>
+        <label for="ville">ville*</label><input type="text" name="ville" id="ville"><br><span id="erreurville"></span>
+        <label for="email">email*</label><input type="email" name="email" id="email"><br></form><span id="erreurmail"></span>
         </fieldset>
         <fieldset>
             <legend>votre demande</legend>
@@ -45,7 +45,7 @@
          <label for="question">votre  question* :</label>
          <textarea name="question" id="question" cols="25" rows="1"></textarea>
         </fieldset><br>
-        <input type="checkbox" name="1" id="1">*j'accepte le  traitement informatique de  ce  formulaire<ol></ol>
+        <input type="checkbox" name="1" id="formulaire">*j'accepte le  traitement informatique de  ce  formulaire<ol></ol>
        <input type="submit" value="envoyer"><input type="button" value="annuler">
        </div>
        <div class="box">[COLONNE DROITE]</div></section>
