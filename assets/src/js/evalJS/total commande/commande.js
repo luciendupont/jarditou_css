@@ -1,4 +1,4 @@
-var pu=parseInt(prompt("veuillez saisir le prix unitaire"));
+var pu=parseInt(prompt("veuillez entrez le prix unitaire"));
 var qtecom=parseInt(prompt("veuillez saisir une quantité"));
 var tot = pu*qtecom;
 var rem;
